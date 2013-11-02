@@ -127,7 +127,7 @@ namespace Homework4
             Console.WriteLine("Привет! Здесь представлены решения домашних заданий к уроку №4.");
             do
             {
-                Menu.DrawMenu();
+                Help.DrawMenu();
                 task = Console.ReadLine();
                 Console.Clear();
                 switch (task)
@@ -136,7 +136,7 @@ namespace Homework4
                     #region
                         do
                         {
-                            int [] myArray = ChangeArray(Menu.AskAndParseToArray());
+                            int [] myArray = ChangeArray(Help.AskAndParseToArray());
                             Console.WriteLine();
                             Console.WriteLine("Массив после преобразования: ");
                             foreach (int item in myArray)
@@ -154,7 +154,7 @@ namespace Homework4
                     #region
                         do
                         {
-                            int[] myArray = SortArray(Menu.AskAndParseToArray());
+                            int[] myArray = SortArray(Help.AskAndParseToArray());
                             Console.WriteLine();
                             Console.WriteLine("Массив после преобразования: ");
                             foreach (int item in myArray)

@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Homework4
 {
-    class Menu
+    class Help
     {
         public static void DrawMenu()
         {
