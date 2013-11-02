@@ -133,6 +133,7 @@ namespace Homework4
                 switch (task)
                 {
                     case "1":
+                    #region
                         do
                         {
                             int [] myArray = ChangeArray(Menu.AskAndParseToArray());
@@ -148,7 +149,9 @@ namespace Homework4
                             Console.Clear();
                         } while(continueTask != "0");
                         break;
+                    #endregion
                     case "2":
+                    #region
                         do
                         {
                             int[] myArray = SortArray(Menu.AskAndParseToArray());
@@ -164,7 +167,9 @@ namespace Homework4
                             Console.Clear();
                         } while (continueTask != "0");
                         break;
+                    #endregion
                     case "3":
+                    #region
                         do
                         {
                             Console.WriteLine("Введите число, количество вхождений которого вы хотите посчитать.");
@@ -176,7 +181,9 @@ namespace Homework4
                             Console.Clear();
                         } while (continueTask != "0");
                         break;
+                    #endregion
                     case "4":
+                    #region
                         do
                         {
                             Console.WriteLine("Введите количество столбцов: ");
@@ -216,7 +223,9 @@ namespace Homework4
                         } while(continueTask != "0");
 
                         break;
+                    #endregion
                     case "5":
+                    #region
                         do
                         {
                             Console.WriteLine("Введит строку, чтобы получить по ней информацию: ");
@@ -226,7 +235,9 @@ namespace Homework4
                             Console.Clear();
                         } while (continueTask != "0");
                         break;
+                    #endregion
                     case "6":
+                    #region
                         do
                         {
                             Console.WriteLine("Введите строку, которую Вы хотите поменять: ");
@@ -239,6 +250,7 @@ namespace Homework4
                             Console.Clear();
                         } while (continueTask != "0");
                         break;
+                    #endregion
                 }
                 Console.WriteLine("Для проверки других заданий нажмите Enter или 0 для завершения программы");
                 answer = Console.ReadLine();
