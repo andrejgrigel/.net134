@@ -48,6 +48,7 @@ namespace Homework4
             for (int i = 0; i < myArray.Length; i++)
             {
                 myArray[i] = rand.Next(-30, 31);
+                Console.Write(myArray[i] + " ");
                 if (myArray[i] == number)
                 {
                     count++;
@@ -175,7 +176,7 @@ namespace Homework4
                         {
                             Console.WriteLine("Введите число, количество вхождений которого вы хотите посчитать.");
                             int number = int.Parse(Console.ReadLine());
-                            Console.WriteLine("Количество вхождений числа {0} в массив составляет {1}", number, NumberMatch(number));
+                            Console.WriteLine("\nКоличество вхождений числа {0} в массив составляет {1}", number, NumberMatch(number));
                             Console.WriteLine();
                             Console.WriteLine("Нажмите Enter для продолжения или 0 для выхода из программы...");
                             continueTask = Console.ReadLine();
@@ -268,10 +269,13 @@ namespace Homework4
                         } while (continueTask != "0");
                         break;
                         #endregion
-
                     case "7":
-                        Diamond.DrawDiamond(5, true);
+                        #region DrawDiamond
+		                        Diamond.DrawDiamond(5, true);
+                        Console.WriteLine();
+                        Diamond.DrawDiamond(5, false);
                         break;
+	                    #endregion               
                 }
                 Console.WriteLine("Для проверки других заданий нажмите Enter или 0 для завершения программы");
                 answer = Console.ReadLine();
