@@ -47,7 +47,9 @@ namespace Homework5
                 {
                     if ((le1.A*le2.B - le1.B*le2.A) == 0)
                     {
+                        
                         solution = "X = " + ((double) (le1.B + le2.B)/(le1.A + le2.A)) + "Y.";
+                        Console.WriteLine("Система имеет бесчиленное множество решений типа \n{0}", solution);
                         return true;
                     }
                     else
@@ -58,7 +60,7 @@ namespace Homework5
                 }
                 catch (ArgumentOutOfRangeException e)
                 {
-                    Console.WriteLine(e);
+                    Console.WriteLine(e.Message);
                     solution = "";
                     return false;
                 }

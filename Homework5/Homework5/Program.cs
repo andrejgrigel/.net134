@@ -9,11 +9,11 @@ namespace Homework5
     {
         static void Main(string[] args)
         {
-            Complex z = new Complex(1,1);
-            Complex z1;
-            z1 = z - ((z * z * z - 1) / (3 * z * z));
-            Console.WriteLine("z1 ={0}", z1);
-            Console.WriteLine("X = {0}, Y = {1}", z1.X, z1.Y);
+            LinearEquation le1 = new LinearEquation(2, 3);
+            LinearEquation le2 = new LinearEquation(4, 6);
+            string solution;
+            bool exists = LinearEquation.ExistsSolution(le1, le2, out solution);
+
         }
     }
 }
