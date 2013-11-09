@@ -1,0 +1,209 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="System.Exception" Collapsed="true">
+    <Position X="48" Y="3.25" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="System.AggregateException" Collapsed="true">
+    <Position X="43.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.SystemException" Collapsed="true">
+    <Position X="45.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.ApplicationException" Collapsed="true">
+    <Position X="48" Y="7.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.InvalidTimeZoneException" Collapsed="true">
+    <Position X="50.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.TimeZoneNotFoundException" Collapsed="true">
+    <Position X="52.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.OutOfMemoryException" Collapsed="true">
+    <Position X="13.25" Y="9" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.StackOverflowException" Collapsed="true">
+    <Position X="15.5" Y="9" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.DataMisalignedException" Collapsed="true">
+    <Position X="17.75" Y="9" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.ExecutionEngineException" Collapsed="true">
+    <Position X="20" Y="9" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.MemberAccessException" Collapsed="true">
+    <Position X="22.25" Y="9" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.AccessViolationException" Collapsed="true">
+    <Position X="24.5" Y="9" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.AppDomainUnloadedException" Collapsed="true">
+    <Position X="26.75" Y="9" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.ArgumentException" Collapsed="true">
+    <Position X="29" Y="9" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="System.ArithmeticException" Collapsed="true">
+    <Position X="31.25" Y="9" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.ArrayTypeMismatchException" Collapsed="true">
+    <Position X="33.5" Y="9" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.BadImageFormatException" Collapsed="true">
+    <Position X="35.75" Y="9" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.CannotUnloadAppDomainException" Collapsed="true">
+    <Position X="38" Y="9" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.TypeUnloadedException" Collapsed="true">
+    <Position X="40.25" Y="9" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.ContextMarshalException" Collapsed="true">
+    <Position X="42.5" Y="9" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.TypeLoadException" Collapsed="true">
+    <Position X="44.75" Y="9" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="System.FormatException" Collapsed="true">
+    <Position X="47" Y="9" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.IndexOutOfRangeException" Collapsed="true">
+    <Position X="49.25" Y="9" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.InsufficientExecutionStackException" Collapsed="true">
+    <Position X="51.5" Y="9" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.InvalidCastException" Collapsed="true">
+    <Position X="53.75" Y="9" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.InvalidOperationException" Collapsed="true">
+    <Position X="56" Y="9" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.InvalidProgramException" Collapsed="true">
+    <Position X="58.25" Y="9" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.MulticastNotSupportedException" Collapsed="true">
+    <Position X="60.5" Y="9" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.NotImplementedException" Collapsed="true">
+    <Position X="62.75" Y="9" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.NotSupportedException" Collapsed="true">
+    <Position X="65" Y="9" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.NullReferenceException" Collapsed="true">
+    <Position X="67.25" Y="9" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.OperationCanceledException" Collapsed="true">
+    <Position X="69.5" Y="9" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.RankException" Collapsed="true">
+    <Position X="71.75" Y="9" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.TimeoutException" Collapsed="true">
+    <Position X="74" Y="9" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.TypeInitializationException" Collapsed="true">
+    <Position X="76.25" Y="9" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.UnauthorizedAccessException" Collapsed="true">
+    <Position X="78.5" Y="9" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.FieldAccessException" Collapsed="true">
+    <Position X="20" Y="10.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.MethodAccessException" Collapsed="true">
+    <Position X="22.25" Y="10.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.MissingMemberException" Collapsed="true">
+    <Position X="24.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="System.ArgumentNullException" Collapsed="true">
+    <Position X="26.75" Y="10.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.ArgumentOutOfRangeException" Collapsed="true">
+    <Position X="29" Y="10.5" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="System.DuplicateWaitObjectException" Collapsed="true">
+    <Position X="31.25" Y="10.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.DivideByZeroException" Collapsed="true">
+    <Position X="30.25" Y="12" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.NotFiniteNumberException" Collapsed="true">
+    <Position X="32.5" Y="12" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.OverflowException" Collapsed="true">
+    <Position X="34.75" Y="12" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.EntryPointNotFoundException" Collapsed="true">
+    <Position X="42.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.DllNotFoundException" Collapsed="true">
+    <Position X="44.75" Y="10.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.TypeAccessException" Collapsed="true">
+    <Position X="47" Y="10.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.ObjectDisposedException" Collapsed="true">
+    <Position X="56" Y="10.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.PlatformNotSupportedException" Collapsed="true">
+    <Position X="65" Y="10.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Font Name="Tahoma" Size="8.25" />
+</ClassDiagram>

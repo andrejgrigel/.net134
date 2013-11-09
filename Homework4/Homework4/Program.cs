@@ -121,7 +121,7 @@ namespace Homework4
             return newString;
         }
 
-        static void Main(string[] args)
+        static public void RunHomework()
         {
             string task, answer, continueTask;
             Console.WriteLine("Привет! Здесь представлены решения домашних заданий к уроку №4.");
@@ -133,10 +133,10 @@ namespace Homework4
                 switch (task)
                 {
                     case "1":
-                    #region
+                        #region Changing the Array
                         do
                         {
-                            int [] myArray = ChangeArray(Help.AskAndParseToArray());
+                            int[] myArray = ChangeArray(Help.AskAndParseToArray());
                             Console.WriteLine();
                             Console.WriteLine("Массив после преобразования: ");
                             foreach (int item in myArray)
@@ -147,11 +147,11 @@ namespace Homework4
                             Console.WriteLine("Нажмите Enter для продолжения или 0 для выхода из программы...");
                             continueTask = Console.ReadLine();
                             Console.Clear();
-                        } while(continueTask != "0");
+                        } while (continueTask != "0");
                         break;
-                    #endregion
+                        #endregion
                     case "2":
-                    #region
+                        #region Negative First
                         do
                         {
                             int[] myArray = SortArray(Help.AskAndParseToArray());
@@ -167,9 +167,9 @@ namespace Homework4
                             Console.Clear();
                         } while (continueTask != "0");
                         break;
-                    #endregion
+                        #endregion
                     case "3":
-                    #region
+                        #region Calculate occurences
                         do
                         {
                             Console.WriteLine("Введите число, количество вхождений которого вы хотите посчитать.");
@@ -181,9 +181,9 @@ namespace Homework4
                             Console.Clear();
                         } while (continueTask != "0");
                         break;
-                    #endregion
+                        #endregion
                     case "4":
-                    #region
+                        #region Changing rows
                         do
                         {
                             Console.WriteLine("Введите количество столбцов: ");
@@ -212,7 +212,7 @@ namespace Homework4
                             {
                                 for (int j = 0; j < width; j++)
                                 {
-                                    Console.Write(myField[i,j]);
+                                    Console.Write(myField[i, j]);
                                 }
                                 Console.WriteLine();
 
@@ -220,12 +220,12 @@ namespace Homework4
                             Console.WriteLine("Нажмите Enter для продолжения или 0 для выхода из программы...");
                             continueTask = Console.ReadLine();
                             Console.Clear();
-                        } while(continueTask != "0");
+                        } while (continueTask != "0");
 
                         break;
-                    #endregion
+                        #endregion
                     case "5":
-                    #region
+                        #region Info String
                         do
                         {
                             Console.WriteLine("Введит строку, чтобы получить по ней информацию: ");
@@ -235,9 +235,9 @@ namespace Homework4
                             Console.Clear();
                         } while (continueTask != "0");
                         break;
-                    #endregion
+                        #endregion
                     case "6":
-                    #region
+                        #region Updating String
                         do
                         {
                             Console.WriteLine("Введите строку, которую Вы хотите поменять: ");
@@ -250,12 +250,18 @@ namespace Homework4
                             Console.Clear();
                         } while (continueTask != "0");
                         break;
-                    #endregion
+                        #endregion
                 }
                 Console.WriteLine("Для проверки других заданий нажмите Enter или 0 для завершения программы");
                 answer = Console.ReadLine();
                 Console.Clear();
             } while (answer != "0");
+        }
+
+        static void Main(string[] args)
+        {
+            RunHomework();
+            
         }
     }
 }
