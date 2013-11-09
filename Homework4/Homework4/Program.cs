@@ -116,6 +116,7 @@ namespace Homework4
 
         static public string ChangeString(string input, char symbol)
         {
+            
             string newString = input.Substring(0, input.LastIndexOf(symbol) + 1);
             newString = newString.Replace(symbol, Char.ToUpper(symbol));
             return newString;
@@ -240,10 +241,26 @@ namespace Homework4
                         #region Updating String
                         do
                         {
-                            Console.WriteLine("Введите строку, которую Вы хотите поменять: ");
-                            string input = Console.ReadLine();
-                            Console.WriteLine("Введите символ, регистр которого надо заменить: ");
-                            char symbol = char.Parse(Console.ReadLine());
+                            string input;
+                            char symbol;
+                            while (true)
+                            {
+                                try
+                                {
+                                    Console.WriteLine("Введите строку, которую Вы хотите поменять: ");
+                                    input = Console.ReadLine();
+                                    Console.WriteLine("Введите символ, регистр которого надо заменить: ");
+                                    symbol = char.Parse(Console.ReadLine());
+                                    break;
+
+                                }
+                                catch (FormatException)
+                                {
+                                    
+                                    Console.WriteLine("Неправильный ввод данных!");
+                                    continue;
+                                }
+                            }
                             Console.WriteLine("Новая строка выглядит так: \n{0}", ChangeString(input, symbol));
                             Console.WriteLine("Нажмите Enter для продолжения или 0 для выхода из программы...");
                             continueTask = Console.ReadLine();
@@ -251,6 +268,10 @@ namespace Homework4
                         } while (continueTask != "0");
                         break;
                         #endregion
+
+                    case "7":
+                        Diamond.DrawDiamond(5, true);
+                        break;
                 }
                 Console.WriteLine("Для проверки других заданий нажмите Enter или 0 для завершения программы");
                 answer = Console.ReadLine();
